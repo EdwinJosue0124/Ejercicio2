@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: #333;
+    color:black;
+    font-family: sans-serif;
+  }
+  
+  form {
+    width: 500px;
+    margin: auto;
+    background: #555;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  label, input,select {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+  }
+  input, select {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    width: 30%;
+    margin: auto;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="reset"] {
+    width: 30%;
+    margin: auto;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  #container{
+      margin: 150px auto;
+      width: 600px;
+  }
+
+  table{
+      background-color:white;
+      text-align: left;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th{
+      text-align: center;
+  }
+
+  th ,td{
+      
+      padding: 20px;
+      
+  }
+  thead{
+      background-color: #246355;
+      border-bottom: solid 5px #555;
+      color: white;
+  }
+ tr:nth-child(even)
+ {
+     background-color: #ddd;
+ }
+
+ .total{
+     font-weight: bold;
+ }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Recursos/estilos.css">
+    <title>Compra de celualares</title>
+</head>
+<body>
+    <form action="Recursos/operaciones.php" method="post">
+        <h1>Calcular pedido</h1>
+        <label for="">Cantidad de celualares a comprar: </label>
+        <input type="number" name="cantidad" min="0" max="500" required>
+        <label for="">Precio unitario de cada telefono: </label>
+        <input type="text" name="precio" required>
+        <input type="submit" value="Calcular">
+        <br>
+        <input type="reset">
+      </form>
+    
+</body>
+</html>
